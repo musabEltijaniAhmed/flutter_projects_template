@@ -1,0 +1,39 @@
+طريقة الاستخدام:
+https://www.youtube.com/watch?v=NwNSooG4FNA&ab_channel=MahdiMirzadeh
+
+Step1:
+https://developers.google.com/oauthplayground
+Step2:
+    https://www.googleapis.com/auth/firebase.messaging
+Step3:
+POST https://fcm.googleapis.com/v1/{parent=projects/*}/messages:send
+https://fcm.googleapis.com/v1/projects/ozcco-b4752/messages:send
+step4:
+
+{
+  "message":{
+  "token":"dOZOn4LyS7KpN4WCuQM_br:APA91bFedo9bofSF1X8UXLSnLo6wZt9z_H9gd8sOjGxapPFVntNNldJ2NR6BBfcEjHzhK7YNBgUD_QtrX6btb5ib9N5iiOVO_7PMoT5Vlvsj7wmhsknIu_M",
+    "data" : {
+      "id":"2",
+      "type": "bid",
+      "title" : "عرض جديد",
+      "body" : "يوجد عرض جديد من شركه ماث",
+      "cargo_id":"2"
+    },
+    "android":{
+      "priority": "high",
+
+    },
+    "apns":{
+      "headers":{
+        "apns-priority":"5"
+      }
+    }
+  }
+}
+
+
+
+روابط اخرى:
+https://firebase.flutter.dev/docs/messaging/notifications
+https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages

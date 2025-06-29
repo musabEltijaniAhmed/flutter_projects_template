@@ -1,0 +1,57 @@
+import 'dart:async';
+
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_downloader/flutter_downloader.dart';
+import 'package:matryal_seller/core/error/error_log.dart';
+import 'package:matryal_seller/core/services/downloader_callback.dart';
+import 'package:matryal_seller/core/shared/class_shared_import.dart';
+import 'package:matryal_seller/core/util/timeago_arabic.dart';
+import 'package:timeago/timeago.dart' as timeago;
+
+import 'app/app.dart';
+import 'core/services/notifications/initialize_notification.dart';
+import 'firebase_options.dart';
+
+void main() async {
+  runZonedGuarded(
+    () async {
+      WidgetsFlutterBinding.ensureInitialized();
+      await EasyLocalization.ensureInitialized();
+      WidgetsFlutterBinding.ensureInitialized();
+      await FlutterDownloader.initialize(ignoreSsl: true, debug: kDebugMode);
+      FlutterDownloader.registerCallback(
+        DownloaderService.downloaderCallback,
+      );
+      await ScreenUtil.ensureScreenSize();
+      await Firebase.initializeApp(
+        options: DefaultFirebaseOptions.currentPlatform,
+      );
+
+      ///Initialize services
+      await InitializeNotification.initialize();
+      FirebaseMessaging.onBackgroundMessage(
+        InitializeNotification.onBackgroundMessage,
+      );
+
+      /// Allow only portrait mode
+      SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+      timeago.setLocaleMessages('ar', ArabicCustomMessages());
+      runApp(
+        EasyLocalization(
+          supportedLocales: const [Locale('en'), Locale('ar')],
+          path: 'assets/translations',
+          fallbackLocale: const Locale('ar'),
+           startLocale: const Locale('ar'),
+          child: const ProviderScope(child: MyApp()),
+        ),
+      );
+    },
+
+    ///async/Future/Timer/Streams
+    errorLog,
+  );
+}

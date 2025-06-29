@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flutter_downloader_notification_started">بدأ التحميل</string>
+    <string name="flutter_downloader_notification_in_progress">جاري التحميل</string>
+    <string name="flutter_downloader_notification_canceled">تم إلغاء التحميل</string>
+    <string name="flutter_downloader_notification_failed">فشل التحميل</string>
+    <string name="flutter_downloader_notification_complete">اكتمل التحميل</string>
+    <string name="flutter_downloader_notification_paused">تم إيقاف التحميل مؤقتاً</string>
+</resources> 
