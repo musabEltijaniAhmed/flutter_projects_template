@@ -1,7 +1,5 @@
 import 'package:flutter/services.dart';
-import 'package:matryal_seller/core/util/print_info.dart';
-
-
+import 'package:flutter_project_template/core/util/print_info.dart';
 
 class IconChanger {
   static const MethodChannel _channel = MethodChannel('icon_channel');

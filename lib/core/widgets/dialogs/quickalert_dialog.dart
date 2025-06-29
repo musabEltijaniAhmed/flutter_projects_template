@@ -3,10 +3,10 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:matryal_seller/core/constants/app_color.dart';
-import 'package:matryal_seller/core/extensions/color_extensions.dart';
-import 'package:matryal_seller/core/extensions/context_extensions.dart';
-import 'package:matryal_seller/core/widgets/dialogs/quickalert_container.dart';
+import 'package:flutter_project_template/core/constants/app_color.dart';
+import 'package:flutter_project_template/core/extensions/color_extensions.dart';
+import 'package:flutter_project_template/core/extensions/context_extensions.dart';
+import 'package:flutter_project_template/core/widgets/dialogs/quickalert_container.dart';
 
 import '../../constants/app_string.dart';
 import '../../domain/entity/alert_model.dart';

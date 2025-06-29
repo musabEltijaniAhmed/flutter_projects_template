@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:matryal_seller/core/constants/app_color.dart';
-import 'package:matryal_seller/core/constants/app_size.dart';
-import 'package:matryal_seller/core/extensions/context_extensions.dart';
+import 'package:flutter_project_template/core/constants/app_color.dart';
+import 'package:flutter_project_template/core/constants/app_size.dart';
+import 'package:flutter_project_template/core/extensions/context_extensions.dart';
 
 class AppText extends StatelessWidget {
   final String text;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
 
 class AppImage extends StatelessWidget {
   final String image;
@@ -60,7 +60,8 @@ class AppImage extends StatelessWidget {
       borderRadius: borderRadius ?? BorderRadius.zero,
       child: ColorFiltered(
         colorFilter:
-            colorFilter ?? const ColorFilter.mode(AppColor.noColor, BlendMode.darken),
+            colorFilter ??
+            const ColorFilter.mode(AppColor.noColor, BlendMode.darken),
         child: _buildFadeInImage(),
       ),
     );

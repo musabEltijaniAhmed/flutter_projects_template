@@ -1,4 +1,4 @@
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
 
 ///use this class fro abstracting the building repo
 

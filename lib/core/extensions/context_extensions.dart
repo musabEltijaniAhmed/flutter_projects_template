@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:matryal_seller/core/services/language_service.dart';
+import 'package:flutter_project_template/core/services/language_service.dart';
 
 extension BuildContextValue on BuildContext {
   // media query from presentation edges

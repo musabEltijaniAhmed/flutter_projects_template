@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
-import 'package:matryal_seller/core/widgets/app_decoration.dart';
-import 'package:matryal_seller/core/widgets/lottie_helper.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/widgets/app_decoration.dart';
+import 'package:flutter_project_template/core/widgets/lottie_helper.dart';
 
 import '../domain/entity/alert_model.dart';
 import 'dialogs/quickalert_dialog.dart';

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:matryal_seller/core/error/error_hander_type.dart';
-import 'package:matryal_seller/core/services/notifications/handel_notifications.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
-import 'package:matryal_seller/core/themes/app_them.dart';
-import 'package:matryal_seller/core/routing/route_paths.dart';
+import 'package:flutter_project_template/core/error/error_hander_type.dart';
+import 'package:flutter_project_template/core/extensions/context_extensions.dart';
+import 'package:flutter_project_template/core/services/notifications/handel_notifications.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/themes/app_them.dart';
+import 'package:flutter_project_template/core/routing/route_paths.dart';
 
 GlobalKey<NavigatorState> myNavigatorKey = GlobalKey<NavigatorState>();
 

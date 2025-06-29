@@ -1,5 +1,5 @@
-name: {{project_name}}
-description: {{description}}
+name: flutter_project_template
+description: A new Flutter project.
 #com.matryal.seller
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 

@@ -1,5 +1,5 @@
-import 'package:matryal_seller/app/app.dart';
- 
+import 'package:flutter_project_template/app/app.dart';
+
 class NotificationRouter {
   static void navigateFromPayload({required Map<String, dynamic> payload}) {
     final navigator = myNavigatorKey.currentState;

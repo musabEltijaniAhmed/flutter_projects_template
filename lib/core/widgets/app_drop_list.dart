@@ -1,6 +1,6 @@
 import 'package:dropdown_button2/dropdown_button2.dart';
 import 'package:flutter/material.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
 
 class AppDropList<T> extends StatelessWidget {
   final List<T> items;
@@ -16,7 +16,7 @@ class AppDropList<T> extends StatelessWidget {
 
   const AppDropList({
     super.key,
-    this.items=const [],
+    this.items = const [],
     this.validator,
     required this.hintText,
     required this.onChanged,

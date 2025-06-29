@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'package:dio/dio.dart';
-import 'package:matryal_seller/core/domain/entity/data_handel_model.dart';
-import 'package:matryal_seller/core/domain/entity/file_upload_data.dart';
-import 'package:matryal_seller/core/services/network/inetwork_services.dart';
+import 'package:flutter_project_template/core/domain/entity/data_handel_model.dart';
+import 'package:flutter_project_template/core/domain/entity/file_upload_data.dart';
+import 'package:flutter_project_template/core/services/network/inetwork_services.dart';
 import '../../constants/app_constants.dart';
 import '../../error/app_error_state.dart';
 import '../../util/print_info.dart';

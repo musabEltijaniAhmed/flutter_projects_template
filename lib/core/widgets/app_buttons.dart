@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
 
 class AppButtons extends StatelessWidget {
   final String text;
@@ -53,9 +53,11 @@ class AppButtons extends StatelessWidget {
         style: ElevatedButton.styleFrom(
           alignment: alignment,
           shape: RoundedRectangleBorder(
-              borderRadius: borderRadius ??
-                  BorderRadius.circular((radius ?? AppSize.buttonRadius)),
-              side: side ?? const BorderSide(color: AppColor.noColor, width: 0.3)),
+            borderRadius:
+                borderRadius ??
+                BorderRadius.circular((radius ?? AppSize.buttonRadius)),
+            side: side ?? const BorderSide(color: AppColor.noColor, width: 0.3),
+          ),
           backgroundColor: (backgroundColor ?? AppColor.subtextColor),
           elevation: elevation ?? 0,
           padding: buttonPadding,

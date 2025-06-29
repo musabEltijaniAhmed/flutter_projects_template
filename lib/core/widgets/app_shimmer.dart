@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:shimmer/shimmer.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
 
 import '../domain/entity/item_shape_model.dart';
 

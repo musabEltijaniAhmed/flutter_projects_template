@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../shared/class_shared_import.dart';
-import 'package:matryal_seller/core/util/print_info.dart';
+import 'package:flutter_project_template/core/util/print_info.dart';
+
 ///Utility method for handling page transitions with optional animation
 
 class AppRoutes {

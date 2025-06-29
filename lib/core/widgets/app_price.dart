@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:matryal_seller/core/constants/app_size.dart';
+import 'package:flutter_project_template/core/constants/app_size.dart';
 
 import 'app_text.dart';
 

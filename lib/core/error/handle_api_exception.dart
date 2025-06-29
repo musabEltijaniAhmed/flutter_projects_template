@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:matryal_seller/core/error/app_error_message.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/constants/app_color.dart';
+import 'package:flutter_project_template/core/constants/app_size.dart';
+import 'package:flutter_project_template/core/error/app_error_message.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/widgets/app_text.dart';
+import 'package:flutter_project_template/core/widgets/helpers.dart';
+import 'package:flutter_svg/svg.dart';
 
 class HandleApiExceptions extends StatelessWidget {
   final String message;

@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:matryal_seller/core/widgets/dialogs/quickalert_buttons.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/widgets/dialogs/quickalert_buttons.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
 
 import '../../domain/entity/alert_model.dart';
-
-
 
 class QuickAlertContainer extends StatefulWidget {
   final AlertOptions options;
@@ -196,7 +194,7 @@ class _QuickAlertContainerState extends State<QuickAlertContainer>
         return null;
       case AlertType.loading:
         return null;
-      }
+    }
   }
 
   Color? whatColor() {
@@ -215,6 +213,6 @@ class _QuickAlertContainerState extends State<QuickAlertContainer>
         return null;
       case AlertType.loading:
         return null;
-      }
+    }
   }
 }

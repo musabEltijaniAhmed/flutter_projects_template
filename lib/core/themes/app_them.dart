@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:matryal_seller/app/app.dart';
+import 'package:flutter_project_template/app/app.dart';
 
 import '../constants/app_color.dart';
 import '../constants/app_constants.dart';
@@ -12,7 +12,10 @@ class AppThem {
   AppThem._internal();
   getAppThem() {
     return ThemeData(
-      dividerTheme: const DividerThemeData(color: AppColor.lightGray, thickness: 0.8),
+      dividerTheme: const DividerThemeData(
+        color: AppColor.lightGray,
+        thickness: 0.8,
+      ),
 
       primaryColor: AppColor.mainColor,
       scaffoldBackgroundColor: AppColor.scaffoldColor,

@@ -5,17 +5,18 @@ import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';
-import 'package:matryal_seller/core/constants/app_string.dart';
-import 'package:matryal_seller/core/widgets/app_snack_bar.dart';
+import 'package:flutter_project_template/core/constants/app_string.dart';
+import 'package:flutter_project_template/core/widgets/app_snack_bar.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
+
 /// Example usage in a StatefulWidget:
 /// ```dart
 /// class MyWidget extends StatefulWidget {
 ///   @override
 ///   _MyWidgetState createState() => _MyWidgetState();
 /// }
-/// 
+///
 /// class _MyWidgetState extends State<MyWidget> {
 ///   // Create a new port for the downloader callback
 ///   final ReceivePort _port = ReceivePort('downloader_send_port');
@@ -27,7 +28,7 @@ import 'package:permission_handler/permission_handler.dart';
 ///     DownloaderService.startDownloadProcess(_port);
 ///   }
 ///
-///   @override 
+///   @override
 ///   void dispose() {
 ///     // Important:
 ///     // Close the port to prevent memory leaks

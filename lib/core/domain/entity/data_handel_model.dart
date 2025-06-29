@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:matryal_seller/core/constants/app_constants.dart';
-import 'package:matryal_seller/core/constants/app_flow_sate.dart';
+import 'package:flutter_project_template/core/constants/app_constants.dart';
+import 'package:flutter_project_template/core/constants/app_flow_sate.dart';
 
 class DataHandle<T> extends Equatable {
   final T? data;

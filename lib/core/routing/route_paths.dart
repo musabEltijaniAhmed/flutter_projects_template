@@ -1,6 +1,6 @@
 // app_routes.dart
 
-import 'package:matryal_seller/features/splash_view.dart';
+import 'package:flutter_project_template/features/splash_view.dart';
 
 class RoutesNames {
   static const String splashScreen = '/splashScreen';

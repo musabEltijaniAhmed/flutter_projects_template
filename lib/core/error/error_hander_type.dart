@@ -1,7 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:matryal_seller/core/error/error_log.dart';
-import 'package:matryal_seller/core/util/print_info.dart';
+import 'package:flutter_project_template/core/error/error_log.dart';
 
 import 'error_screen.dart';
 

@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart' as local;
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:matryal_seller/core/domain/entity/alert_model.dart';
+import 'package:flutter_project_template/core/domain/entity/alert_model.dart';
 
 import '../../constants/app_color.dart';
 import '../../constants/app_size.dart';

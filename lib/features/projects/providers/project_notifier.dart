@@ -1,10 +1,10 @@
-import 'package:matryal_seller/core/constants/app_flow_sate.dart';
-import 'package:matryal_seller/core/domain/repositories/state_repository.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
-import 'package:matryal_seller/core/util/url_util.dart';
-import 'package:matryal_seller/features/projects/providers/project_state.dart';
+import 'package:flutter_project_template/core/constants/app_flow_sate.dart';
+import 'package:flutter_project_template/core/domain/repositories/state_repository.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/util/url_util.dart';
+import 'package:flutter_project_template/features/projects/providers/project_state.dart';
 import '../domain/repositories/projects_repository.dart';
-import 'package:matryal_seller/core/util/print_info.dart';
+import 'package:flutter_project_template/core/util/print_info.dart';
 
 class ProjectNotifier extends StateNotifier<ProjectState>
     implements StateRepository {

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
-
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
 
 class AppRatingBar extends StatelessWidget {
   final double initialRating;

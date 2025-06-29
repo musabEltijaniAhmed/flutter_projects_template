@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:matryal_seller/core/constants/app_color.dart';
-import 'package:matryal_seller/core/constants/app_size.dart';
-import 'package:matryal_seller/core/themes/custom_widgets_theme.dart';
+import 'package:flutter_project_template/core/constants/app_color.dart';
+import 'package:flutter_project_template/core/constants/app_size.dart';
+import 'package:flutter_project_template/core/themes/custom_widgets_theme.dart';
 
 import 'helpers.dart';
 
@@ -98,7 +98,7 @@ class AppTextFields extends StatelessWidget {
     this.floatingLabelBehavior,
     this.suffixIcon,
     this.prefixIcon,
-    this.initialValue
+    this.initialValue,
   });
 
   @override

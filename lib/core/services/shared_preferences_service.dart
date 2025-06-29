@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
-import 'package:matryal_seller/core/util/print_info.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/util/print_info.dart';
 
 /// A utility class that provides static methods to interact with SharedPreferences.
 ///

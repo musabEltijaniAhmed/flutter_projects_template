@@ -1,4 +1,4 @@
-import 'package:matryal_seller/features/projects/data/model/project_model.dart';
+import 'package:flutter_project_template/features/projects/data/model/project_model.dart';
 
 import '../../../../core/constants/app_end_points.dart';
 import '../../../../core/domain/entity/data_handel_model.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:matryal_seller/core/constants/app_color.dart';
-import 'package:matryal_seller/core/extensions/color_extensions.dart';
+import 'package:flutter_project_template/core/constants/app_color.dart';
+import 'package:flutter_project_template/core/extensions/color_extensions.dart';
 
 class AppDecoration {
   /// Returns a customizable [BoxDecoration] for styling a widget===============================================================================================

@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
-import 'package:matryal_seller/core/widgets/app_decoration.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/widgets/app_decoration.dart';
 
 class AppDialog {
   static showLoading({required context}) {
@@ -52,7 +52,10 @@ class AppDialog {
           ),
           child: ConstrainedBox(
             constraints: BoxConstraints(
-              maxWidth: width ?? MediaQuery.of(context).size.width * (context.isLargeScreen?0.7:0.9),
+              maxWidth:
+                  width ??
+                  MediaQuery.of(context).size.width *
+                      (context.isLargeScreen ? 0.7 : 0.9),
               maxHeight: height ?? MediaQuery.of(context).size.height * 0.8,
             ),
             child: Column(
@@ -83,7 +86,11 @@ class AppDialog {
                           Navigator.pop(context);
                         },
                         child:
-                            gestureDetectorChild ?? Icon(AppIcons.closeSquare,size: AppSize.appBarIconSize,),
+                            gestureDetectorChild ??
+                            Icon(
+                              AppIcons.closeSquare,
+                              size: AppSize.appBarIconSize,
+                            ),
                       ),
                     ],
                   ),

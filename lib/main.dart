@@ -6,10 +6,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';
-import 'package:matryal_seller/core/error/error_log.dart';
-import 'package:matryal_seller/core/services/downloader_callback.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
-import 'package:matryal_seller/core/util/timeago_arabic.dart';
+import 'package:flutter_project_template/core/error/error_log.dart';
+import 'package:flutter_project_template/core/services/downloader_callback.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/util/timeago_arabic.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 import 'app/app.dart';
@@ -23,9 +23,7 @@ void main() async {
       await EasyLocalization.ensureInitialized();
       WidgetsFlutterBinding.ensureInitialized();
       await FlutterDownloader.initialize(ignoreSsl: true, debug: kDebugMode);
-      FlutterDownloader.registerCallback(
-        DownloaderService.downloaderCallback,
-      );
+      FlutterDownloader.registerCallback(DownloaderService.downloaderCallback);
       await ScreenUtil.ensureScreenSize();
       await Firebase.initializeApp(
         options: DefaultFirebaseOptions.currentPlatform,
@@ -45,7 +43,7 @@ void main() async {
           supportedLocales: const [Locale('en'), Locale('ar')],
           path: 'assets/translations',
           fallbackLocale: const Locale('ar'),
-           startLocale: const Locale('ar'),
+          startLocale: const Locale('ar'),
           child: const ProviderScope(child: MyApp()),
         ),
       );

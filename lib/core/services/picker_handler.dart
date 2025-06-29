@@ -3,11 +3,11 @@ import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:matryal_seller/core/constants/app_string.dart';
-import 'package:matryal_seller/core/domain/entity/alert_model.dart';
-import 'package:matryal_seller/core/services/permission_handler.dart';
-import 'package:matryal_seller/core/util/print_info.dart';
-import 'package:matryal_seller/core/widgets/dialogs/quickalert_dialog.dart';
+import 'package:flutter_project_template/core/constants/app_string.dart';
+import 'package:flutter_project_template/core/domain/entity/alert_model.dart';
+import 'package:flutter_project_template/core/services/permission_handler.dart';
+import 'package:flutter_project_template/core/util/print_info.dart';
+import 'package:flutter_project_template/core/widgets/dialogs/quickalert_dialog.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 /// Example usage:

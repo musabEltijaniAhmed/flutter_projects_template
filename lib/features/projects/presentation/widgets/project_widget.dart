@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:matryal_seller/core/shared/class_shared_import.dart';
-import 'package:matryal_seller/core/util/url_util.dart';
-import 'package:matryal_seller/core/widgets/app_decoration.dart';
+import 'package:flutter_project_template/core/shared/class_shared_import.dart';
+import 'package:flutter_project_template/core/util/url_util.dart';
+import 'package:flutter_project_template/core/widgets/app_decoration.dart';
 
 import '../../../../core/widgets/app_image.dart';
 import '../../providers/project_notifier.dart';
-
 
 class ProjectWidget extends StatelessWidget {
   final Object? tag;

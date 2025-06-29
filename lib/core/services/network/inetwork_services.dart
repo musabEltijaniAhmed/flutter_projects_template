@@ -1,4 +1,4 @@
-import 'package:matryal_seller/core/domain/entity/data_handel_model.dart';
+import 'package:flutter_project_template/core/domain/entity/data_handel_model.dart';
 
 import '../../domain/entity/file_upload_data.dart';
 
