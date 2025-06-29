@@ -42,17 +42,13 @@ dependencies:
   fluentui_system_icons: ^1.1.273
   url_launcher: ^6.3.1
   pinput: ^5.0.1
-  permission_handler: ^12.0.0+1
-  awesome_drawer_bar: ^1.2.1
-  card_swiper: ^3.0.1
+  permission_handler: ^12.0.0+1 
   equatable: ^2.0.7
   cached_network_image: ^3.4.1
   dio: ^5.8.0+1
-  curved_navigation_bar: ^1.0.6
   firebase_analytics: ^11.4.5
   firebase_crashlytics: ^4.3.6
   timeago: ^3.7.1
-  fl_chart: ^1.0.0
   dotted_border: ^3.0.1
 
 

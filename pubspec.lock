@@ -33,14 +33,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.12.0"
-  awesome_drawer_bar:
-    dependency: "direct main"
-    description:
-      name: awesome_drawer_bar
-      sha256: adfa7448c6b3c7952e2b0ba76aa2e63655bf57891aa977bca34e21297e526049
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.2.1"
   badges:
     dependency: "direct main"
     description:
@@ -81,14 +73,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.1"
-  card_swiper:
-    dependency: "direct main"
-    description:
-      name: card_swiper
-      sha256: "21e52a144decbf0054e7cfed8bbe46fc89635e6c86b767eaccfe7d5aeba32528"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.1"
   characters:
     dependency: transitive
     description:
@@ -137,14 +121,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.8"
-  curved_navigation_bar:
-    dependency: "direct main"
-    description:
-      name: curved_navigation_bar
-      sha256: bb4ab128fcb6f4a9f0f1f72d227db531818b20218984789777f049fcbf919279
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.6"
   dbus:
     dependency: transitive
     description:
@@ -385,14 +361,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
-  fl_chart:
-    dependency: "direct main"
-    description:
-      name: fl_chart
-      sha256: "577aeac8ca414c25333334d7c4bb246775234c0e44b38b10a82b559dd4d764e7"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
   flex_color_picker:
     dependency: transitive
     description:
@@ -422,14 +390,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_adaptive_scaffold:
-    dependency: transitive
-    description:
-      name: flutter_adaptive_scaffold
-      sha256: "5eb1d1d174304a4e67c4bb402ed38cb4a5ebdac95ce54099e91460accb33d295"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.3.3+1"
   flutter_cache_manager:
     dependency: transitive
     description:

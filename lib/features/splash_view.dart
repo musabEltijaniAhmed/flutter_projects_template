@@ -25,7 +25,7 @@ class _SplashViewState extends State<SplashView> {
         alignment: Alignment.center,
         height: AppSize.screenHeight,
         width: AppSize.screenWidth,
-        color: AppColor.mainColor,
+        color: AppColor.subtextColor,
         child: AppText(
           text: AppMessage.appName,
           color: AppColor.white,

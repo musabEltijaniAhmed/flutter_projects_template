@@ -1,4 +1,3 @@
-import 'package:awesome_drawer_bar/awesome_drawer_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_project_template/core/shared/class_shared_import.dart';
 import 'package:flutter_project_template/core/widgets/app_badges.dart';
@@ -29,10 +28,7 @@ class Header extends StatelessWidget {
               leading: IconButton(
                 padding: EdgeInsets.zero,
                 highlightColor: AppColor.noColor,
-                onPressed: () {
-                  AwesomeDrawerBar.of(context)?.toggle();
-                  printInfo('ddd');
-                },
+                onPressed: () {},
                 icon: Icon(
                   AppIcons.drawer,
                   size: AppSize.appBarIconSize + (5.spMin),
