@@ -5,12 +5,8 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_downloader/flutter_downloader.dart';
 import 'package:flutter_project_template/core/error/error_log.dart';
-import 'package:flutter_project_template/core/services/downloader_callback.dart';
 import 'package:flutter_project_template/core/shared/class_shared_import.dart';
-import 'package:flutter_project_template/core/util/timeago_arabic.dart';
-import 'package:timeago/timeago.dart' as timeago;
 
 import 'app/app.dart';
 import 'core/services/notifications/initialize_notification.dart';
@@ -22,8 +18,7 @@ void main() async {
       WidgetsFlutterBinding.ensureInitialized();
       await EasyLocalization.ensureInitialized();
       WidgetsFlutterBinding.ensureInitialized();
-      await FlutterDownloader.initialize(ignoreSsl: true, debug: kDebugMode);
-      FlutterDownloader.registerCallback(DownloaderService.downloaderCallback);
+
       await ScreenUtil.ensureScreenSize();
       await Firebase.initializeApp(
         options: DefaultFirebaseOptions.currentPlatform,
@@ -37,7 +32,7 @@ void main() async {
 
       /// Allow only portrait mode
       SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
-      timeago.setLocaleMessages('ar', ArabicCustomMessages());
+
       runApp(
         EasyLocalization(
           supportedLocales: const [Locale('en'), Locale('ar')],

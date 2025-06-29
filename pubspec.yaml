@@ -16,15 +16,7 @@ dependencies:
   shimmer: ^3.0.0
   badges: ^3.1.2
   google_fonts: ^6.2.1
-  flutter_screenutil: ^5.9.3
-  file_picker: ^8.0.3
-  image_picker: ^1.1.2
-  flutter_form_builder: ^9.1.1
-  form_builder_validators: ^11.1.2
-  flutter_downloader: ^1.12.0
-  path_provider: ^2.1.5
-  # flutter_quill: ^11.4.1
-  html_editor_enhanced: ^2.6.0
+  flutter_screenutil: ^5.9.3 
   #flutter pub run easy_localization:generate -S "assets/translations" -O "lib/core/localization"
   #flutter pub run easy_localization:generate -S "assets/translations" -O "lib/core/localization" -o "locale_keys.g.dart" -f keys
   easy_localization: ^3.0.7+1
@@ -39,17 +31,14 @@ dependencies:
   firebase_core: ^3.13.1
   flutter_svg: ^2.1.0
   smooth_page_indicator: ^1.2.1
-  fluentui_system_icons: ^1.1.273
-  url_launcher: ^6.3.1
+  fluentui_system_icons: ^1.1.273 
   pinput: ^5.0.1
   permission_handler: ^12.0.0+1 
   equatable: ^2.0.7
   cached_network_image: ^3.4.1
   dio: ^5.8.0+1
   firebase_analytics: ^11.4.5
-  firebase_crashlytics: ^4.3.6
-  timeago: ^3.7.1
-  dotted_border: ^3.0.1
+  firebase_crashlytics: ^4.3.6 
 
 
   cupertino_icons: ^1.0.8
@@ -86,7 +75,6 @@ flutter_assets:
   field_prefix: 
   ignore_comments: true
     
-
 
 
 
