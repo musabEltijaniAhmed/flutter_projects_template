@@ -29,7 +29,6 @@ export 'package:shared_preferences/shared_preferences.dart';
 export 'package:flutter_project_template/core/services/shared_preferences_service.dart';
 export 'package:flutter_project_template/core/error/error_screen.dart';
 export 'package:flutter_project_template/core/routing/route_paths.dart';
-export 'package:cached_network_image/cached_network_image.dart';
 export 'package:flutter_project_template/core/extensions/color_extensions.dart';
 export 'package:flutter_project_template/core/widgets/app_text_fields.dart';
 export 'package:flutter_project_template/generated/assets.dart';
