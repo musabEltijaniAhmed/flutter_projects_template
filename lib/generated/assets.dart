@@ -3,10 +3,7 @@ class Assets {
   Assets._();
 
   static const String fontsSaudiRiyal = 'assets/fonts/saudi_riyal.ttf';
-  static const String imagesBarcodeExample = 'assets/images/barcode_example.png';
   static const String imagesHolder = 'assets/images/holder.png';
-  static const String imagesM1 = 'assets/images/m1.png';
-  static const String imagesM2 = 'assets/images/m2.png';
   static const String lottieConfirm = 'assets/lottie/confirm.json';
   static const String lottieEmpty = 'assets/lottie/empty.json';
   static const String lottieError = 'assets/lottie/error.json';
@@ -15,21 +12,7 @@ class Assets {
   static const String lottieSuccess = 'assets/lottie/success.json';
   static const String lottieWarning = 'assets/lottie/warning.json';
   static const String svgAdd = 'assets/svg/add.svg';
-  static const String svgApiError = 'assets/svg/apiError.svg';
-  static const String svgB1 = 'assets/svg/b1.svg';
-  static const String svgB2 = 'assets/svg/b2.svg';
-  static const String svgFilter = 'assets/svg/filter.svg';
-  static const String svgNext = 'assets/svg/next.svg';
-  static const String svgNotification = 'assets/svg/notification.svg';
-  static const String svgO1 = 'assets/svg/o1.svg';
-  static const String svgO2 = 'assets/svg/o2.svg';
-  static const String svgO3 = 'assets/svg/o3.svg';
-  static const String svgO4 = 'assets/svg/o4.svg';
-  static const String svgReturnOrders = 'assets/svg/return_orders.svg';
-  static const String svgSKU = 'assets/svg/SKU.svg';
   static const String translationsAr = 'assets/translations/ar.json';
   static const String translationsEn = 'assets/translations/en.json';
-  static const String svgWallet = 'assets/svg/wallet_icon.svg';
-  static const String svgReceipt = 'assets/svg/card_icon.svg';
 
 }

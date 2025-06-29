@@ -14,8 +14,6 @@ class _SplashViewState extends State<SplashView> {
   @override
   void initState() {
     super.initState();
-
-    //check if user is login or not
   }
 
   @override

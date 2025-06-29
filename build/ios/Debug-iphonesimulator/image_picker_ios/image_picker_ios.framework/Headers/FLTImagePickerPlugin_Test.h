@@ -36,7 +36,7 @@ typedef void (^FlutterResultAdapter)(NSArray<NSString *> *_Nullable, FlutterErro
 /// Maximum number of images to select. 0 indicates no maximum.
 @property(nonatomic, assign) int maxImageCount;
 
-/// Whether the image should be picked with full metadata (requires gallery permissions)
+/// Whether the image should be picked with full metadata (requires gallery roles)
 @property(nonatomic, assign) BOOL requestFullMetadata;
 
 /// Whether the picker should include videos in the list*/

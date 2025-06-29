@@ -1,10 +1,8 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_project_template/core/error/error_log.dart';
 import 'package:flutter_project_template/core/shared/class_shared_import.dart';
-
 import 'app/app.dart';
 
 void main() async {
@@ -14,6 +12,7 @@ void main() async {
       await EasyLocalization.ensureInitialized();
       WidgetsFlutterBinding.ensureInitialized();
       await ScreenUtil.ensureScreenSize();
+
       /// Allow only portrait mode
       SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 

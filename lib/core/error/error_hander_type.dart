@@ -2,24 +2,24 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_project_template/core/error/error_log.dart';
 
+import '../util/print_info.dart';
 import 'error_screen.dart';
 
 void initGlobalErrorHandling() {
   ///1. Handle Flutter UI Errors
-  ErrorWidget.builder = (FlutterErrorDetails errorDetails) {
+  ErrorWidget.builder = (errorDetails) {
     return ErrorScreen(errorDetails);
   };
 
   ///Todo: un comment this in release
   ///Handle framework-level Flutter errors
-  // FlutterError.onError = (FlutterErrorDetails details) {
-  //   printInfo('${details.exception}', title: 'Flutter Error:', isError: true);
-  //
-  //   ///send error to crashlytics with context
-  //   if (!kDebugMode) {
-  //     errorLog(details, details.stack ?? StackTrace.current);
-  //   }
-  // };
+  FlutterError.onError = (details) {
+    printInfo('${details.exception}', title: 'Flutter Error:', isError: true);
+
+    ///send error to crashlytics with context
+
+    errorLog(details, details.stack ?? StackTrace.current);
+  };
 
   /// Handle Platform/System Errors
   ///like Native platform errors

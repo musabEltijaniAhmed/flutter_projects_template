@@ -83,7 +83,7 @@ class HandleApiExceptions extends StatelessWidget {
   ///===========================================================================================================================================
   _errorImage({required double height, required BuildContext context}) {
     return SvgPicture.asset(
-      Assets.svgApiError,
+      'Assets.svgApiError',
       height: AppHelpers.height(context) * height,
     );
   }
