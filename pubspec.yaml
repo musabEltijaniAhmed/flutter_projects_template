@@ -1,4 +1,4 @@
-name: {{project_name}}
+name: {{project_name_snake}}
 description: {{description}}
 #com.matryal.seller
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
