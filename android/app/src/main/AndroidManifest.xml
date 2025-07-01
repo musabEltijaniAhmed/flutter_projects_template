@@ -3,7 +3,7 @@
     <uses-feature android:name="android.hardware.camera" />
 
     <application
-        android:label="almusanid app template"
+        android:label="{{app_name}}"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
