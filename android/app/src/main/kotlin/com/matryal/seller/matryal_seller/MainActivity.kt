@@ -1,4 +1,4 @@
-package com.matryal.seller.matryal_seller
+package flutter_project_template
 
 import io.flutter.embedding.android.FlutterActivity
 
